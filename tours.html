@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+                href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;700&display=swap"
+                rel="stylesheet"
+            />
+            <link rel="stylesheet" href="assets/css/main.css" />
+            <title>SUP Авторские Туры</title>
+        </head>
+    </head>
+    <body>
+        <header
+            class="header tours-header"
+            style="
+                background-image: url('assets/img/tours-header.png');
+            "
+            >
+            <div class="container">
+                <nav class="header-menu-services header-menu header-arrow">
+                    <a href="javascript:history.back(-1)" class="toBack hide-on-mobile" >
+                        <svg
+                            width="55"
+                            height="55"
+                            viewBox="0 0 55 55"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M17.941 8.74755C18.7164 7.97217 19.9371 7.97217 20.7125 8.74755C21.4616 9.49675 21.4616 10.7436 20.7125 11.4911L6.65947 25.5441H53.0324C54.1134 25.5441 55.0006 26.4033 55.0006 27.4843C55.0006 28.5653 54.1134 29.4524 53.0324 29.4524H6.65947L20.7125 43.4792C21.4616 44.2546 21.4616 45.5033 20.7125 46.2507C19.9371 47.0261 18.7164 47.0261 17.941 46.2507L0.56116 28.8709C-0.18803 28.1217 -0.18803 26.8748 0.56116 26.1274L17.941 8.74755Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                    <a href="javascript:history.back(-1)" class="toBack hide-on-desktop-f">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M6.52351 3.18095C6.80547 2.89899 7.24936 2.89899 7.53132 3.18095C7.80376 3.45338 7.80376 3.9068 7.53132 4.1786L2.42114 9.28878H19.284C19.6771 9.28878 19.9997 9.60122 19.9997 9.99431C19.9997 10.3874 19.6771 10.71 19.284 10.71H2.42114L7.53132 15.8107C7.80376 16.0926 7.80376 16.5467 7.53132 16.8185C7.24936 17.1004 6.80547 17.1004 6.52351 16.8185L0.203577 10.4985C-0.0688559 10.2261 -0.0688559 9.77268 0.203577 9.50088L6.52351 3.18095Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <ul class="menu menu-response">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="about.html">О нас</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">КОНТАКТЫ</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">БЛОГ</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">ВОПРОСЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-rent hide-on-desktop-f">
+                    <a href="#">
+                        <svg 
+                            width="38" 
+                            height="38" 
+                            viewBox="0 0 38 38" 
+                            fill="none" 
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.8" filter="url(#filter0_d)">
+                                <path d="M25.7209 0H12.2787C7.71384 0 4 3.71402 4 8.27892V21.7211C4 26.2862 7.71384 30 12.2787 30H25.7209C30.2862 30 34 26.286 34 21.7211V8.27892C34.0002 3.71402 30.2862 0 25.7209 0ZM31.3384 21.7211C31.3384 24.8185 28.8185 27.3383 25.7211 27.3383H12.2787C9.18153 27.3384 6.66175 24.8185 6.66175 21.7211V8.27892C6.66175 5.18171 9.18153 2.66175 12.2787 2.66175H25.7209C28.8183 2.66175 31.3383 5.18171 31.3383 8.27892V21.7211H31.3384Z" fill="#004155"/>
+                                <path d="M18.9978 7.271C14.7353 7.271 11.2676 10.7387 11.2676 15.0012C11.2676 19.2635 14.7353 22.731 18.9978 22.731C23.2603 22.731 26.7279 19.2635 26.7279 15.0012C26.7279 10.7387 23.2603 7.271 18.9978 7.271ZM18.9978 20.0691C16.2031 20.0691 13.9293 17.7956 13.9293 15.001C13.9293 12.2062 16.203 9.93254 18.9978 9.93254C21.7926 9.93254 24.0662 12.2062 24.0662 15.001C24.0662 17.7956 21.7924 20.0691 18.9978 20.0691Z" fill="#004155"/>
+                                <path d="M27.0535 5.01123C26.5406 5.01123 26.0369 5.21885 25.6747 5.58262C25.3108 5.94462 25.1016 6.44858 25.1016 6.96319C25.1016 7.47619 25.3109 7.97998 25.6747 8.34375C26.0367 8.70575 26.5406 8.91514 27.0535 8.91514C27.5681 8.91514 28.0702 8.70575 28.434 8.34375C28.7978 7.97998 29.0054 7.47602 29.0054 6.96319C29.0054 6.44858 28.7978 5.94462 28.434 5.58262C28.072 5.21885 27.5681 5.01123 27.0535 5.01123Z" fill="#004155"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg 
+                            width="38" 
+                            height="38" 
+                            viewBox="0 0 38 38" 
+                            fill="none" 
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.8" filter="url(#filter0_d)">
+                                <path d="M34 15.0376C34 6.73684 27.28 0 19 0C10.72 0 4 6.73684 4 15.0376C4 22.3158 9.16 28.3759 16 29.7744V19.5489H13V15.0376H16V11.2782C16 8.37594 18.355 6.01504 21.25 6.01504H25V10.5263H22C21.175 10.5263 20.5 11.203 20.5 12.0301V15.0376H25V19.5489H20.5V30C28.075 29.2481 34 22.8421 34 15.0376Z" fill="#004155"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>   
+                    </a>
+                </div>
+                
+                <h1 class="header-title hide-on-mobile">
+                    АВТОРСКИЕ ТУРЫ
+                </h1>
+                <div class="hide-on-desktop-f" style="justify-content: center;">
+                    <h1 class="header-title">
+                        АВТОРСКИЕ <br>
+                        sup <br>
+                        ТУРЫ
+                    </h1>
+                </div>
+                <div class="routes-btn-response hide-on-desktop-f">
+                    <a href="#" class="btn btn-primary">
+                        оставить заявку 
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="inTour">
+                    <div
+                        class="rent-baloon cert-baloon"
+                        style="padding:0 0 20px"
+                    >
+                        <div class="header-balloon">
+                            <span class="header-balloon-sep"></span>
+                            <h2>АВТОРСКИЕ ТУРЫ</h2>
+                        </div>
+                        <div class="quality-text">
+                            <p>
+                                Наша команда имеет огромный опыт в организации и проведении авторских sup туров!<br/>
+                                Различная длительность – от одного дня до недели.<br/> 
+                                Sup тур подходит для любого возраста и вне зависимости от уровня владения sup навыками. Великолепный вариант отдыха с детьми! Растите путешественника с ранних лет!<br/>
+                                Моря, реки и озера, самые живописные места в дружной компании. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5
+                    class="section-title border right adaptive-sec-title"
+                    style="font-size: 30px; margin-bottom: 40px"
+                    >
+                    Что включено в тур?
+                    </h5>
+                    <div class="quality-text">
+                        <p>
+                            Каждый sup тур – уникальный по своей сути, поэтому организация каждого тура индивидуальна.
+                        </p>
+                        <span>
+                            Что обычно входит в sup тур:
+                        </span>
+                        <ul style="margin-bottom: 40px;">
+                            <li>
+                                - полный комплект оборудования (sup доска, весло, жилет);
+                            </li>
+                            <li>
+                                - проживание; 
+                            </li>
+                            <li>
+                                - трансфер;
+                            </li>
+                            <li>
+                                - опытные инструкторы;
+                            </li>
+                            <li>
+                                - дружная компания;
+                            </li>
+                            <li>
+                                - крутые sup (и не только) активности;
+                            </li>
+                            <li>
+                                - фото/видео сопровождение.
+                            </li>
+                        </ul>
+                        <p>
+                            Соответственно, стоимость каждого sup тура варьируется от места тура, его составляющих и ваших индивидуальных желаний (например, количество sup досок, которые вам нужны и т.д.)
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <img src="assets/img/tours-mob-1.png" alt="" style="width: 100%;" class="hide-on-desktop-f">
+            <div class="toPage primary toPage-sec" style="margin-top: 50px;">
+                <div class="container">
+                    <p class="toPage-name">Что надеть на sup прогулку?</p>
+                    <a href="faq.html" class="toPage-link">
+                        Часто задаваемые вопросы
+                        <svg
+                            width="111"
+                            height="16"
+                            viewBox="0 0 111 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <img src="assets/img/tours-1.png" alt="" style="width: 100%;" class="hide-on-mobile">
+                <div class="quality-text">
+                    <p>
+                        Авторский тур – это всегда внимание к деталям и индивидуальный подход, мы стараемся учесть все пожелания наших гостей.<br>
+                        Небольшие группы и тщательная проработка маршрута позволит Вам почувствовать себя главным героем путешествия.<br>
+                        Мы уделяем каждому участнику наших авторских туров максимальное внимание, и вы точно сможете поучаствовать во всех мероприятиях, увидеть и попробовать все самое интересное.
+ 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="ourGoods">
+                    <h5
+                    class="section-title border right adaptive-sec-title"
+                    style="font-size: 30px; margin-bottom: 40px"
+                    >
+                        Преимущества наших авторских sup туров
+                    </h5>
+                    <div class="quality-text">
+                        <ul class="desc-info-list">
+                            <li>
+                                Активная и продуманная программа. Вас ждут необычные sup маршруты, которые не всем известны. Ведь мы заинтересованы, чтобы вы получили максимум впечатлений от нашего sup тура, оставили положительные отзывы и поделились своим восхищением с друзьями. Так что скучать вам точно не придется. 
+                            </li>
+                            <li>
+                                Опытные инструкторы, которые будут сопровождать, обучать и помогать Вам на протяжении всего sup тура;
+                            </li>
+                            <li>
+                                В Вашем распоряжении самое новейшее оборудование!<br> 
+                                Невероятные модели sup досок точно покорят Ваше сердце;
+                            </li>
+                            <li>
+                                Потрясающая возможность встретить единомышленников.<br>
+                                Вы любите sup и путешествия? Тогда Вам точно к нам! 
+
+                            </li>
+                            <li>
+                                Идеальный вариант для одного. Не с кем поехать? Езжайте с нами. 
+                                Соберется хорошая компания с интересными людьми. Будет весело!
+                            </li>
+                            <li>
+                                Крутая возможность совместить спорт, путешествие, приключения и отличных людей!
+                            </li>
+                            <li>
+                                А также Вам обеспечены красочные фотографии и улетные видео! Ведь фото/видео сопровождение входит в наши sup туры.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="assets/img/tours-2.png" alt="" width="100%" class="hide-on-mobile">
+            </div>
+            <img src="assets/img/tours-mob-2.png" alt="" width="100%" class="hide-on-desktop-f">   
+        </section>
+        <section>
+            <div class="container">
+                <h5
+                    class="section-title border adaptive-sec-title hide-on-mobile"
+                    style="font-size: 30px; margin-bottom: 40px; padding-right: 0;"
+                    >
+                    Как отправиться с нами в sup тур?
+                </h5>
+                <div>
+                    <div style="justify-content: space-between;" class="hide-on-desktop-f">
+                        <h5
+                            class="section-title border adaptive-sec-title no-margin"
+                            style="font-size: 30px; margin-bottom: 40px; padding-right: 0;"
+                            >
+                            Как отправиться с нами в sup тур?
+                        </h5>
+                        <div style="display: flex; align-items: center;">
+                            <a href="#">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <path d="M25.7209 0H12.2787C7.71384 0 4 3.71402 4 8.27892V21.7211C4 26.2862 7.71384 30 12.2787 30H25.7209C30.2862 30 34 26.286 34 21.7211V8.27892C34.0002 3.71402 30.2862 0 25.7209 0ZM31.3384 21.7211C31.3384 24.8185 28.8185 27.3383 25.7211 27.3383H12.2787C9.18153 27.3384 6.66175 24.8185 6.66175 21.7211V8.27892C6.66175 5.18171 9.18153 2.66175 12.2787 2.66175H25.7209C28.8183 2.66175 31.3383 5.18171 31.3383 8.27892V21.7211H31.3384Z" fill="black"/>
+                                        <path d="M18.9998 7.27002C14.7372 7.27002 11.2695 10.7378 11.2695 15.0004C11.2695 19.2628 14.7372 22.7304 18.9998 22.7304C23.2623 22.7304 26.73 19.2628 26.73 15.0004C26.73 10.7378 23.2623 7.27002 18.9998 7.27002ZM18.9998 20.0684C16.2051 20.0684 13.9313 17.7949 13.9313 15.0002C13.9313 12.2053 16.2049 9.93163 18.9998 9.93163C21.7946 9.93163 24.0683 12.2053 24.0683 15.0002C24.0683 17.7949 21.7944 20.0684 18.9998 20.0684Z" fill="black"/>
+                                        <path d="M27.0535 5.0127C26.5407 5.0127 26.0369 5.22031 25.6747 5.58408C25.3108 5.94607 25.1016 6.45002 25.1016 6.96461C25.1016 7.47761 25.311 7.98139 25.6747 8.34515C26.0367 8.70714 26.5407 8.91653 27.0535 8.91653C27.5681 8.91653 28.0703 8.70714 28.434 8.34515C28.7978 7.98139 29.0054 7.47744 29.0054 6.96461C29.0054 6.45002 28.7978 5.94607 28.434 5.58408C28.072 5.22031 27.5681 5.0127 27.0535 5.0127Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                            <feOffset dy="4"/>
+                                            <feGaussianBlur stdDeviation="2"/>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="https://wa.me/79774142062">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d)">
+                                        <path d="M34 14.6141C34 22.6846 27.4066 29.2272 19.2715 29.2272C16.6899 29.2272 14.2648 28.5669 12.1537 27.4106L4 30L6.65791 22.1574C5.3177 19.9563 4.54586 17.3718 4.54586 14.6131C4.54684 6.54254 11.1383 0 19.2734 0C27.4076 0.0019565 34 6.54352 34 14.6141ZM19.2705 2.33019C12.4433 2.33019 6.88975 7.84165 6.88975 14.617C6.88975 17.3052 7.76626 19.7939 9.24831 21.8189L7.70268 26.3805L12.4589 24.8691C14.4154 26.1525 16.7564 26.8999 19.2705 26.8999C26.0977 26.8999 31.6532 21.3894 31.6532 14.6141C31.6551 7.84165 26.0987 2.33019 19.2705 2.33019ZM26.7091 17.9802C26.6171 17.8325 26.3765 17.7425 26.0165 17.5625C25.6575 17.3825 23.88 16.5168 23.5503 16.3994C23.2177 16.2791 22.9771 16.2184 22.7364 16.5774C22.4987 16.9364 21.8061 17.7425 21.5938 17.9832C21.3835 18.2228 21.1732 18.2532 20.8122 18.0761C20.4512 17.8942 19.2871 17.5185 17.9078 16.2986C16.8346 15.3478 16.1098 14.1768 15.9004 13.8178C15.6881 13.4597 15.8789 13.2661 16.0579 13.088C16.2193 12.9266 16.4189 12.6693 16.5999 12.459C16.7808 12.2506 16.8405 12.1029 16.9608 11.8632C17.0792 11.6236 17.0195 11.4152 16.9305 11.2342C16.8405 11.0542 16.1195 9.29338 15.8173 8.57632C15.5169 7.86024 15.2166 7.97861 15.0053 7.97861C14.795 7.97861 14.5543 7.94926 14.3137 7.94926C14.073 7.94926 13.6817 8.03633 13.3521 8.39534C13.0224 8.75436 12.0892 9.62011 12.0892 11.3829C12.0892 13.1477 13.3814 14.8489 13.5624 15.0876C13.7444 15.3253 16.0608 19.0612 19.7303 20.4953C23.4016 21.9285 23.4016 21.4501 24.0629 21.3894C24.7262 21.3288 26.1994 20.5237 26.4988 19.6883C26.8001 18.8489 26.8001 18.1299 26.7091 17.9802Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                            <feOffset dy="4"/>
+                                            <feGaussianBlur stdDeviation="2"/>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="quality-text">
+                        <p>
+                            Все очень просто! <br>
+                            Следите за анонсами туров здесь и в наших социальных сетях!
+        
+                        </p>
+                        <p>
+                            И далее просто напишите или позвоните нам, чтобы забронировать заветное место в sup туре.
+                        </p>
+                        <p>
+                            В наших авторских турах вам гарантированы необычные места, уникальные активности, новые впечатления, интересные люди и множество потрясающих фото!
+                        </p>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section class="header tours-sec"
+            style="
+                background-image: url('assets/img/tours-3.png');
+            ">
+            <div class="container">
+                <div style="
+                    text-align: center;
+                    font-size: 40px;
+                    color: #fff;
+                    padding: 100px 0;">
+                    
+                    <p>
+                        Вы уже готовы к новым путешествиям?
+                    </p>
+                    <p>
+                        Тогда отправляйтесь покорять новые места вместе с нами на sup!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section style="padding: 150px 0 0;">
+            <div class="toPage primary toPage-sec">
+                <div class="container">
+                    <p class="toPage-name">
+                        Есть вопросы?
+                    </p>
+                    <a href="faq.html" class="toPage-link">
+                        Часто задаваемые вопросы
+                        <svg
+                            width="111"
+                            height="16"
+                            viewBox="0 0 111 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer-menu">
+                    <ul class="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="routes.html">Маршруты</a></li>
+                        <li>
+                            <a href="timetable.html">Расписание <small>и</small> цены</a>
+                        </li>
+                        <li><a href="learn.html">SUP прогулки</a></li>
+                        <li><a href="tours.html">Туры</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="faq.html">Вопросы</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact footer-lines">
+                    <a href="tel:+79998391370">
+                        +7 (999) 839-13-70 (Алексей)
+                    </a>
+                    <a href="tel:+79774142062"> +7 (977) 414-20-62 (Артем) </a>
+                    <a href="mailto:sup_outdoor@mail.ru" class="footer-mail">
+                        sup_outdoor@mail.ru
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

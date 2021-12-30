@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+                href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;700&display=swap"
+                rel="stylesheet"
+            />
+            <link rel="stylesheet" href="assets/css/main.css" />
+            <title>SUP Аренда</title>
+        </head>
+    </head>
+    <body>
+        <header
+            class="header rent-header"
+            style="background-image: url('assets/img/rent-header.png')"
+        >
+            <div class="container">
+                <nav class="header-menu-services header-menu header-arrow">
+                    <a href="javascript:history.back(-1)" class="toBack hide-on-mobile">
+                        <svg
+                            width="55"
+                            height="55"
+                            viewBox="0 0 55 55"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M17.941 8.74755C18.7164 7.97217 19.9371 7.97217 20.7125 8.74755C21.4616 9.49675 21.4616 10.7436 20.7125 11.4911L6.65947 25.5441H53.0324C54.1134 25.5441 55.0006 26.4033 55.0006 27.4843C55.0006 28.5653 54.1134 29.4524 53.0324 29.4524H6.65947L20.7125 43.4792C21.4616 44.2546 21.4616 45.5033 20.7125 46.2507C19.9371 47.0261 18.7164 47.0261 17.941 46.2507L0.56116 28.8709C-0.18803 28.1217 -0.18803 26.8748 0.56116 26.1274L17.941 8.74755Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                    <a href="javascript:history.back(-1)" class="toBack hide-on-desktop">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path d="M6.52351 3.18095C6.80547 2.89899 7.24936 2.89899 7.53132 3.18095C7.80376 3.45338 7.80376 3.9068 7.53132 4.1786L2.42114 9.28878H19.284C19.6771 9.28878 19.9997 9.60122 19.9997 9.99431C19.9997 10.3874 19.6771 10.71 19.284 10.71H2.42114L7.53132 15.8107C7.80376 16.0926 7.80376 16.5467 7.53132 16.8185C7.24936 17.1004 6.80547 17.1004 6.52351 16.8185L0.203577 10.4985C-0.0688559 10.2261 -0.0688559 9.77268 0.203577 9.50088L6.52351 3.18095Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <ul class="menu menu-response">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="about.html">О нас</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="learn.html">SUP ПРОГУЛКИ</a>
+                        </li>
+                        <li>
+                            <a href="routes.html">МАРШРУТЫ</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h1 class="header-title hide-on-mobile">Аренда sup досок</h1>
+                <h1 class="header-title hide-on-desktop">Аренда <br> sup досок</h1>
+                <div class="social-rent hide-on-desktop">
+                    <a href="#">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.8" filter="url(#filter0_d)">
+                                <path d="M25.7209 0H12.2787C7.71384 0 4 3.71402 4 8.27892V21.7211C4 26.2862 7.71384 30 12.2787 30H25.7209C30.2862 30 34 26.286 34 21.7211V8.27892C34.0002 3.71402 30.2862 0 25.7209 0ZM31.3384 21.7211C31.3384 24.8185 28.8185 27.3383 25.7211 27.3383H12.2787C9.18153 27.3384 6.66175 24.8185 6.66175 21.7211V8.27892C6.66175 5.18171 9.18153 2.66175 12.2787 2.66175H25.7209C28.8183 2.66175 31.3383 5.18171 31.3383 8.27892V21.7211H31.3384Z" fill="white"/>
+                                <path d="M18.9978 7.271C14.7353 7.271 11.2676 10.7387 11.2676 15.0012C11.2676 19.2635 14.7353 22.731 18.9978 22.731C23.2603 22.731 26.7279 19.2635 26.7279 15.0012C26.7279 10.7387 23.2603 7.271 18.9978 7.271ZM18.9978 20.0691C16.2031 20.0691 13.9293 17.7956 13.9293 15.001C13.9293 12.2062 16.203 9.93254 18.9978 9.93254C21.7926 9.93254 24.0662 12.2062 24.0662 15.001C24.0662 17.7956 21.7924 20.0691 18.9978 20.0691Z" fill="white"/>
+                                <path d="M27.0535 5.01123C26.5406 5.01123 26.0369 5.21885 25.6747 5.58262C25.3108 5.94462 25.1016 6.44858 25.1016 6.96319C25.1016 7.47619 25.3109 7.97998 25.6747 8.34375C26.0367 8.70575 26.5406 8.91514 27.0535 8.91514C27.5681 8.91514 28.0702 8.70575 28.434 8.34375C28.7978 7.97998 29.0054 7.47602 29.0054 6.96319C29.0054 6.44858 28.7978 5.94462 28.434 5.58262C28.072 5.21885 27.5681 5.01123 27.0535 5.01123Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.8" filter="url(#filter0_d)">
+                                <path d="M34 15.0376C34 6.73684 27.28 0 19 0C10.72 0 4 6.73684 4 15.0376C4 22.3158 9.16 28.3759 16 29.7744V19.5489H13V15.0376H16V11.2782C16 8.37594 18.355 6.01504 21.25 6.01504H25V10.5263H22C21.175 10.5263 20.5 11.203 20.5 12.0301V15.0376H25V19.5489H20.5V30C28.075 29.2481 34 22.8421 34 15.0376Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                    <feOffset dy="4"/>
+                                    <feGaussianBlur stdDeviation="2"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>   
+                    </a>
+                </div>
+                <div class="routes-btn-response hide-on-desktop-f">
+                    <a href="https://wa.me/79774142062" class="btn btn-primary">
+                        Арендовать через whatsapp 
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="rent-baloon">
+                    <div class="header-balloon">
+                        <span class="header-balloon-sep"></span>
+                        <h2>АРЕНДА SUP ДОСОК</h2>
+                    </div>
+                    <div class="rentSup">
+                        <p>
+                            Аренда sup доски – отличный вариант для тех, кто не
+                            смог найти подходящее время в нашем расписание
+                            заплывов, или уже опытный райдер и хочет покататься
+                            самостоятельно или вместе с друзьями.
+                        </p>
+                        <div class="rentSup-tel">
+                            <p>Для аренды sup доски</p>
+                            <svg
+                                width="106"
+                                height="26"
+                                viewBox="0 0 106 26"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M0.589844 11.4075C28.1706 11.0019 55.7463 9.87378 83.4117 9.87378"
+                                    stroke="black"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M60.4023 0.671387C75.0514 2.36166 90.2561 4.41233 104.881 5.2726C107.115 5.40402 98.1736 9.06006 97.4677 9.36257C86.3596 14.1232 75.3247 20.0507 65.0036 25.2112"
+                                    stroke="black"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            <div class="numbers">
+                                <a href="tel:+79998391370">
+                                    +7 (999) 839-13-70 (Алексей)</a
+                                >
+                                <a href="tel:+79774142062"
+                                    >+7 (977) 414-20-62 (Артем)</a
+                                >
+                                <svg
+                                    width="296"
+                                    height="124"
+                                    viewBox="0 0 296 124"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M139.853 19.1331C119.88 14.9021 98.6691 16.7217 78.3909 18.0671C57.4811 19.4544 28.8236 21.5997 15.0115 39.5045C5.12744 52.3172 -0.906063 71.1326 5.90589 86.5246C23.1834 125.564 83.1388 123.051 118.288 121.049C153.969 119.017 189.696 112.323 223.96 102.455C245.978 96.1134 266.512 89.1001 283.865 73.6148C298.224 60.801 297.641 35.2059 280.091 25.2919C258.038 12.8343 230.238 10.1069 205.509 7.11155C163.7 2.04731 120.932 1.2523 78.8702 2.55167C54.6506 3.29987 31.0222 8.81639 7.2238 12.7374"
+                                        stroke="#F2CD6C"
+                                        stroke-width="4"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="whatIn">
+            <div class="container">
+                <h5 class="section-title border right learn-title">
+                    Что включено в аренду?
+                </h5>
+            </div>
+            <div class="included-wrap">
+                <div class="included-items">
+                    <div class="included-item">
+                        <img src="assets/img/board.png" alt="" />
+                        <p>
+                            SUP доска + весло <br />
+                            + чехол на колесиках <br />
+                            + носос
+                        </p>
+                    </div>
+                    <div class="included-item">
+                        <img src="assets/img/life-jacket.png" alt="" />
+                        <p>Спасательный жилет</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="quality-text" style="margin: 90px 0">
+                    <p>
+                        На нашей Sup станции вы всегда можете взять sup в
+                        аренду.<br />
+                        Мы находимся в Серебряном бору (пляж номер 3) – в 15
+                        минутах от центра Москвы. Акватория Серебряного бора
+                        невероятно красива и великолепно подходит для прогулок
+                        на sup досках, вы можете самостоятельно пройти по одному
+                        из наших маршрутов.
+                    </p>
+                </div>
+            </div>
+            <div class="toPage primary">
+                <div class="container">
+                    <p class="toPage-name">Что надеть на sup прогулку?</p>
+                    <a href="faq.html" class="toPage-link">
+                        Часто задаваемые вопросы
+                        <svg
+                            width="111"
+                            height="16"
+                            viewBox="0 0 111 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <img src="assets/img/whatIn-1.png" alt="" class="hide-on-desktop-f" />
+            <div class="container">
+                <img src="assets/img/whatIn-1.png" alt="" class="hide-on-mobile" />
+                <div class="quality-text">
+                    <p>
+                        Для аренды доступны качественные доски в большом
+                        количестве: от начального уровня до профессиональных
+                        гоночных досок – это великолепная возможность
+                        протестировать интересующую вас доску перед покупкой!
+                    </p>
+                    <p>
+                        Возможна почасовая и посуточная аренда оборудования.<br />
+                        Большинство sup досок надувные, и вы сможете взять доску
+                        с собой.
+                    </p>
+                    <p>
+                        Вы можете арендовать sup в любой день и в удобное для
+                        вас время (но советуем забронировать желаемую sup доску
+                        заранее), переодеться в кабинке и оставить ваши вещи у
+                        нас на хранение.
+                    </p>
+                </div>
+            </div>
+            <img src="assets/img/whatIn-mob-2.png" alt="" style="width: 100%;" class="hide-on-desktop-f"/>
+            <div class="container">
+                <img src="assets/img/whatIn-2.png" alt="" class="hide-on-mobile"/>
+                <div class="quality-text">
+                    <p>
+                        Забронировать определенную доску можно по
+                        предварительной записи. В случае аренды день в день
+                        предоставляется оборудование, которое доступно на данный
+                        момент (но не забудьте заранее уточнить, работаем ли мы
+                        в этот день). Каждая доска комплектуется веслом и
+                        спасательным жилетом.
+                    </p>
+                    <p>
+                        Отсчет времени аренды начинается после спуска доски на
+                        воду, а заканчивается, когда доска причалит к берегу.<br />
+                        Вы так же можете продлить аренду – в случае отсутствия
+                        других записей.
+                    </p>
+                    <p>
+                        Посуточная аренда доски позволяет Вам арендовать sup на
+                        сутки, выходные или праздничные дни, или, например, для
+                        поездки в отпуск! Доска предоставляется в спущенном
+                        виде, удобно упакованной в чехол.<br />
+                        В комплект помимо доски включены: спасательный жилет,
+                        насос, весло, лиш.
+                    </p>
+                    <p style="color: #ff0000">
+                        Для бронирования доски необходимо связаться с нами в
+                        WhatsApp или по телефону.
+                    </p>
+                </div>
+                <div class="numbers hide-on-mobile">
+                    <a href="tel:+79998391370"> +7 (999) 839-13-70 (Алексей)</a>
+                    <a href="tel:+79774142062">+7 (977) 414-20-62 (Артем)</a>
+                    <svg
+                        width="296"
+                        height="124"
+                        viewBox="0 0 296 124"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M139.853 19.1331C119.88 14.9021 98.6691 16.7217 78.3909 18.0671C57.4811 19.4544 28.8236 21.5997 15.0115 39.5045C5.12744 52.3172 -0.906063 71.1326 5.90589 86.5246C23.1834 125.564 83.1388 123.051 118.288 121.049C153.969 119.017 189.696 112.323 223.96 102.455C245.978 96.1134 266.512 89.1001 283.865 73.6148C298.224 60.801 297.641 35.2059 280.091 25.2919C258.038 12.8343 230.238 10.1069 205.509 7.11155C163.7 2.04731 120.932 1.2523 78.8702 2.55167C54.6506 3.29987 31.0222 8.81639 7.2238 12.7374"
+                            stroke="#F2CD6C"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+                <div class="routes-btn-response hide-on-desktop-f" style="margin: 0;">
+                    <a href="https://wa.me/79774142062" class="btn btn-primary">
+                        Арендовать через whatsapp 
+                    </a>
+                </div>
+                <div class="quality-text" style="margin: 100px 0 0">
+                    <p>
+                        Аренда гидрокостюмов также доступна на нашей sup
+                        станции<br />
+                        (нужно бронировать заранее - аренда гидрокостюма 1000
+                        руб. за прогулку).
+                    </p>
+                    <p>
+                        Наши постоянные клиенты имеют возможность арендовать
+                        доски без депозита,<br />
+                        для всех остальных клиентов возвратный депозит
+                        обязателен и варьируется от класса доски.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="equipment">
+                    <h5 class="section-title border learn-title">
+                        Оборудование
+                    </h5>
+                    <div class="quality-text" style="margin: 50px 0 80px">
+                        <p>
+                            В нашей коллекции доски таких брендов, как
+                            Starboard, Jobe, NSP, Focus и Aztron.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="toPage primary">
+                <div class="container">
+                    <p class="toPage-name">
+                        Читай о нашем оборудовании более подробно здесь
+                    </p>
+                    <a href="about.html" class="toPage-link">
+                        О нас
+                        <svg
+                            width="111"
+                            height="16"
+                            viewBox="0 0 111 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="prices">
+                    <h5 class="section-title border right learn-title">Цены</h5>
+                    <div class="quality-text">
+                        <p>
+                            <span>Аренда sup досок в будни:</span><br />
+                            Первый час - 1200 руб., второй час - 800 руб, третий и последующие часы - 500 руб.
+                        </p>
+                        <p>
+                            <span>Аренда sup досок в выходные:</span><br />
+                            3 часа - 2500 руб. – оборудование выдается по
+                            расписанию маршрутов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; overflow: hidden;" class="hide-on-mobile">
+                <img src="assets/img/whatIn-3.png" alt="" style="width: 100%;">
+            </div>
+            <img src="assets/img/whatIn-mob-3.png" alt="" style="width: 100%;" class="hide-on-desktop">
+            <div class="container">
+                <div class="quality-text">
+                    <p>
+                        При сдаче любого оборудования в аренду подписывается
+                        договор аренды, в котором прописаны правила пользования
+                        оборудованием и ответственность арендатора. В случае
+                        порчи оборудования с арендатора взымается штраф и не
+                        возвращается залог, сумма залога варьируется в
+                        зависимости от доски.
+                    </p>
+                </div>
+            </div>
+            <div class="toPage primary">
+                <div class="container">
+                    <p class="toPage-name">Остались вопросы?</p>
+                    <a href="faq.html" class="toPage-link">
+                        Часто задаваемые вопросы
+                        <svg
+                            width="111"
+                            height="16"
+                            viewBox="0 0 111 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M110.707 8.70711C111.098 8.31658 111.098 7.68342 110.707 7.29289L104.343 0.928932C103.953 0.538408 103.319 0.538408 102.929 0.928932C102.538 1.31946 102.538 1.95262 102.929 2.34315L108.586 8L102.929 13.6569C102.538 14.0474 102.538 14.6805 102.929 15.0711C103.319 15.4616 103.953 15.4616 104.343 15.0711L110.707 8.70711ZM0 9H110V7H0V9Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer-menu">
+                    <ul class="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="routes.html">Маршруты</a></li>
+                        <li>
+                            <a href="timetable.html">Расписание <small>и</small> цены</a>
+                        </li>
+                        <li><a href="learn.html">SUP прогулки</a></li>
+                        <li><a href="tours.html">Туры</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="faq.html">Вопросы</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact footer-lines">
+                    <a href="tel:+79998391370">
+                        +7 (999) 839-13-70 (Алексей)
+                    </a>
+                    <a href="tel:+79774142062"> +7 (977) 414-20-62 (Артем) </a>
+                    <a href="mailto:sup_outdoor@mail.ru" class="footer-mail">
+                        sup_outdoor@mail.ru
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
